@@ -1,3 +1,3 @@
 # sicali (SImple CAmera Lens sImulator)
 
-Basis simulator of different camera lens models
+Basic simulator for different projection models of camera lenses
