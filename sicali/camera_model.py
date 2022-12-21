@@ -266,7 +266,7 @@ class CameraModel:
             ax_scene.set_ylabel(r"$y$ (m)")
             ax_scene.set_zlabel(r"$z$ (m)")
 
-            ax_proj.set_title(r"Scene projection on sensor")
+            ax_proj.set_title(r"Scene projection onto sensor")
             ax_proj.set_xlabel(r"$x$ (m)")
             ax_proj.set_ylabel(r"$y$ (m)")
         else:
@@ -277,7 +277,7 @@ class CameraModel:
             ax_scene.set_ylabel(f"y (m)")
             ax_scene.set_zlabel(f"z (m)")
 
-            ax_proj.set_title(f"Scene projection on sensor")
+            ax_proj.set_title(f"Scene projection onto sensor")
             ax_proj.set_xlabel(f"x (m)")
             ax_proj.set_ylabel(f"y (m)")
 
@@ -417,7 +417,7 @@ class CameraModel:
             ax_scene.set_ylabel(r"$y$ (m)")
             ax_scene.set_zlabel(r"$z$ (m)")
 
-            ax_proj.set_title(r"Scene projection on sensor")
+            ax_proj.set_title(r"Scene projection onto sensor")
             ax_proj.set_xlabel(r"$x$ (m)")
             ax_proj.set_ylabel(r"$y$ (m)")
         else:
@@ -428,7 +428,7 @@ class CameraModel:
             ax_scene.set_ylabel(f"y (m)")
             ax_scene.set_zlabel(f"z (m)")
 
-            ax_proj.set_title(f"Scene projection on sensor")
+            ax_proj.set_title(f"Scene projection onto sensor")
             ax_proj.set_xlabel(f"x (m)")
             ax_proj.set_ylabel(f"y (m)")
 
@@ -607,7 +607,7 @@ class CameraModel:
             ax_scene.set_ylabel(r"$y$ (m)")
             ax_scene.set_zlabel(r"$z$ (m)")
 
-            ax_proj.set_title(r"Scene projection on sensor")
+            ax_proj.set_title(r"Scene projection onto sensor")
             ax_proj.set_xlabel(r"$x$ (m)")
             ax_proj.set_ylabel(r"$y$ (m)")
         else:
@@ -618,7 +618,7 @@ class CameraModel:
             ax_scene.set_ylabel(f"y (m)")
             ax_scene.set_zlabel(f"z (m)")
 
-            ax_proj.set_title(f"Scene projection on sensor")
+            ax_proj.set_title(f"Scene projection onto sensor")
             ax_proj.set_xlabel(f"x (m)")
             ax_proj.set_ylabel(f"y (m)")
 
@@ -720,7 +720,7 @@ class CameraModel:
             ax_sensor.set_xlabel(r"$x$ (m)")
             ax_sensor.set_ylabel(r"$y$ (m)")
 
-            ax_prop.set_title(r"Pixel grid retro-projection on a sphere")
+            ax_prop.set_title(r"Pixel grid retro-projection onto a sphere")
             ax_prop.set_xlabel(r"$x$ (m)")
             ax_prop.set_ylabel(r"$y$ (m)")
             ax_prop.set_zlabel(r"$z$ (m)")
@@ -731,7 +731,7 @@ class CameraModel:
             ax_sensor.set_xlabel(f"x (m)")
             ax_sensor.set_ylabel(f"y (m)")
 
-            ax_prop.set_title(f"Pixel grid retro-projection on a sphere")
+            ax_prop.set_title(f"Pixel grid retro-projection onto a sphere")
             ax_prop.set_xlabel(f"x (m)")
             ax_prop.set_ylabel(f"y (m)")
             ax_prop.set_zlabel(f"z (m)")

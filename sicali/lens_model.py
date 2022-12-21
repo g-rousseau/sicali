@@ -98,7 +98,7 @@ class LensModel(abc.ABC):
         return radius > self._fov_projection_radius
 
     def incidence_to_projection_radius(self, incidence: float) -> float:
-        """Lens projection model, convert an incidence to a projection radius.
+        """Lens projection model, convert an incidence into a projection radius.
 
         Args:
             incidence: incidence (elevation) of the direction to project [rad]
@@ -112,7 +112,7 @@ class LensModel(abc.ABC):
             return self._incidence_to_projection_radius(incidence)
 
     def projection_radius_to_incidence(self, radius: float) -> float:
-        """Lens invert projection model, convert a projection radius to an incidence.
+        """Lens invert projection model, convert a projection radius into an incidence.
 
         Args:
             radius: projection radius on the sensor [m]
@@ -126,7 +126,7 @@ class LensModel(abc.ABC):
             return self._projection_radius_to_incidence(radius)
 
     def project(self, direction: SphericalDirection3D) -> CartesianCoordinate2D:
-        """Lens projection of the input 3D direction on the sensor.
+        """Lens projection of the input 3D direction onto the sensor.
 
         The z-axis is considered as the optical, i.e. the incidence is the elevation.
 
@@ -148,7 +148,7 @@ class LensModel(abc.ABC):
             return CartesianCoordinate2D(x_proj, y_proj)
 
     def propagate(self, coord_sensor: CartesianCoordinate2D) -> SphericalDirection3D:
-        """3D direction projected by the lens on the input coordinates on the sensor.
+        """3D direction projected by the lens on the input coordinates onto the sensor.
 
         The z-axis is considered as the optical, i.e. the incidence is the elevation.
 
